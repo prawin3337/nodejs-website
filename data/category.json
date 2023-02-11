@@ -1,0 +1,24 @@
+{
+    "status": "success",
+    "data": [{
+      "categoryId": "1",
+      "categoryName": "solar",
+      "metaKeywords": ""
+    },{
+      "categoryId": "2",
+      "categoryName": "lightning solution",
+      "metaKeywords": ""
+    },{
+      "categoryId": "3",
+      "categoryName": "aviation lamp",
+      "metaKeywords": ""
+    },{
+      "categoryId": "4",
+      "categoryName": "communication devices",
+      "metaKeywords": ""
+    },{
+      "categoryId": "5",
+      "categoryName": "water lavel controller",
+      "metaKeywords": ""
+    }]
+}

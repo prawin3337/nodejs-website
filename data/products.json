@@ -1,0 +1,124 @@
+{
+    "status": "success",
+    "data": [{
+      "categoryId": "4",
+      "categoryName": "communication devices",
+      "productId": "prod101",
+      "productName": "PPCON U-01",
+      "productDesc": "Isolated USB <=> RS-232/422/485 Interface Converter",
+      "productDetails": "USB module is a cost-effective way to convert RS485 industrial buses to a USB interface. When connected to a PC USB port the module is automatically detected and is installed as a native COM port which is compatible with any existing serial communication application. This makes it easier to add RS485 devices to your system with easy plug-and-play.",
+      "pages": "home",
+      "metaKeywords": "",
+      "productImages": ["product-1.png"],
+      "features": [
+        "Computer interface: USB  2.0 Plug and Play.",
+        "Operational system virtual serial port driver.",
+        "Supports Windows 98/ME/XP/2000/CE/Vista, Windows 7-10",
+        "Field Interfaces:RS-232,RS-422,RS-485 Half Duplex.",
+        "Automatic flow control for RS485 Half Duplex.",
+        "Transmission rate: RS232 from 9600 bps to 115.2 Kbps.",
+        "RS485 from 9600 bps to 115.2Kbps.",
+        "Maximum RS-485 cable length : 1200 m",
+        "Maximum number of devices in the RS485 network: Half",
+        "Duplex to 32 devices",
+        "Power: from the USB port.",
+        "SIZE : 77 mm x 63 mm x 23 mm",
+        "Consumption: &#60;100 mA.",
+        "Isolation: Isolation voltage  500VDC sequence",
+        "USB port RS-232/422/485 bus protection",
+        "USB connection: USB –A-Type  female connector.",  
+        "RS-232 connector:DB9 male",
+        "RS-422/485 connector: 4-bit terminal socket",
+        "Operating environment: -25 to 70°C, 10 to 90% relativehumidity, non-condensing."
+      ]
+    },{
+      "categoryId": "1",
+      "categoryName": "solar",
+      "productId": "prod102",
+      "productName": "PE_PWM-V.01",
+      "productDesc": "SOLAR STREET LIGTH CHARGE CONTROLLER DRIVER",
+      "productDetails": "This Street Light charge controller is totaly solar based charge controller with all type of protections.Efficiency is more than 91%. Panel Support upto 100W. Dimming facility availbe. Motion sensor facility available.",
+      "productImages": ["pe-pwm-1.jpg", "pe-pwm-2.jpg"],
+      "pages": "home",
+      "metaKeywords": "",
+      "features": [
+        "SOLAR BASED  APPLICATIONS.", "STREET LIGHT CONTROLLES"
+      ]
+    },{
+      "categoryId": "4",
+      "categoryName": "communication devices",
+      "productId": "prod103",
+      "productName": "PE-03",
+      "productDesc": "USB TO SREIAL (RS232) CONVERTER(NON-ISOLATED)",
+      "productDetails": "This model provides a simple & easy way to connect Universal Serial Bus & Serial port interface.witth advantage of USB port. The USB-high speed serial converter & software driver are capable of providing a no-firmware- change feature that enableUSB interface to be transparent to serial port peripherals with minimum modifications.",
+      "productImages": ["pe-03-1.jpg", "pe-03-2.jpg", "pe-03-3.jpg", "pe-03-4.jpg"],
+      "pages": "home",
+      "metaKeywords": "",
+      "features": [
+        "Single board USB to asynchronous serial data transfer interface.",
+        "Low USB bandwidth consumption.",
+        "UART interface support for 7 or 8 data bits, 1 or 2 stop bits and odd/ even/ mark/ space/ no parity."
+      ]
+    },{
+      "categoryId": "4",
+      "categoryName": "communication devices",
+      "productId": "prod104",
+      "productName": "PE-04",
+      "productDesc": "USB TO SREIAL (RS232) CONVERTER (ISOLATED)",
+      "productDetails": "This model provides a simple & easy way to connect Universal Serial Bus & Serial port interface.witth advantage of USB port. The USB-high speed serial converter & software driver are capable of providing a no-firmware- change feature that enableUSB interface to be transparent to serial port peripherals with minimum modifications.",
+      "productImages": ["pe-4-1.jpg", "pe-4-2.jpg", "pe-4-3.jpg", "pe-4-4.jpg"],
+      "pages": "home",
+      "metaKeywords": "",
+      "features": [
+        "Single board USB to asynchronous serial data transfer interface.",
+        "Low USB bandwidth consumption. UART interface support for 7 or 8 data bits, 1 or 2 stop bits and odd/ even/ mark/ space/ no parity."
+      ]
+    },{
+      "categoryId": "4",
+      "categoryName": "communication devices",
+      "productId": "prod105",
+      "productName": "PCS-01",
+      "productDesc": "4 mA TO 20 mA ANALOG CURRENT SOURCE",
+      "productDetails": "Output ma range 4ma TO 20ma. Operating on 12v To 24v DC. Indicaion: 16 X 2 LCD display. Size98mm x 68mm x 55mm.",
+      "productImages": ["pcs-01-1.jpg", "pcs-01-2.jpg"],
+      "pages": "home",
+      "metaKeywords": "",
+      "features": [
+        "4 -20 mA Current Source 12 Or 24 Volt Dc Input",
+        "It provides a high precision, fully integrated, low cost single-chip solution for generating current loop signals.",
+        "Can be used for analog transmitter, CBD position mounting transmitter, signal source, valve adjustment, and Output meter test."
+      ]
+    },{
+      "categoryId": "4",
+      "categoryName": "communication devices",
+      "productId": "prod106",
+      "productName": "PAVS-02",
+      "productDesc": "0V TO 10V ANALOG VOLTAGE SOURCE",
+      "productDetails": "Output Voltage range 0V TO 10V. Operating on 12v To 24v DC. Indicaion: 16 X 2 LCD display. Size98mm x 68mm x 55mm.",
+      "productImages": ["VOLTAGE  SOURCE.jpg", "VOLTAGE  SOURCE-1.jpg", "VOLTAGE SOURCE-2.jpg", "VOLTAGE SOURCE-3.jpg"],
+      "pages": "home",
+      "metaKeywords": "",
+      "features": [
+        "It is used the  voltage source for testing and inspection of electric equipments such as Interface Analog Simulator for PLC and Panel Debugging, Device Testing, Frequency Converter, Flow Valve."
+      ]
+    },{
+      "categoryId": "4",
+      "categoryName": "communication devices",
+      "productId": "prod107",
+      "productName": "PRA-V1",
+      "productDesc": "ETHERNET TO MODBUS RTU CONVERTER( RS232,RS485 ISOLATED ) ",
+      "productDetails": "3-in-1 RS-232/422/485 interface Max.115.2Kbps Serial interface and 10/100 Mbps Ethernet. Supports 4- and 2-wire RS-485 with AUTO-SEND™ and built-in terminator. Supports industrial 9VDC TO 24 VDC power input. Terminal block accessories for easy RS-422/485 serial wiring",
+      "productImages": ["pra-v1-1.jpg", "pra-v1-2.jpg"],
+      "pages": "home",
+      "metaKeywords": "",
+      "features": [
+        "3-in-1 RS-232/422/485 interface Max.115.2Kbps Serial interface and 10/100 Mbps Ethernet",
+        "Supports 4- and 2-wire RS-485 with AUTO-SEND™ and built-in terminator.",
+        "Supports industrial 24 VDC power input and optional Power over Serial Terminal block accessories for easy RS-422/485 serial wiring",
+        "Supports IP configuration by MAC address",
+        "Supports configuration store and copy for easy deployment",
+        "Supports Driver, TCP Server/Client, Pair Connection operation modes",
+        "Easy and powerful configuration program"
+      ]
+    }]
+}

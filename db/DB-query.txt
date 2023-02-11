@@ -1,0 +1,50 @@
+CATEGORY:
+create table category(
+   id int primary key AUTO_INCREMENT,
+   name varchar(200),
+   meta_keywords varchar(1000)
+);
+======================
+PRODUCT:
+create table product(
+   id int primary key AUTO_INCREMENT,
+   name varchar(200),
+   meta_keywords varchar(1000),
+   descriptions varchar(500),
+   details varchar(10000),
+   pages varchar(200),
+   category_id int,
+   foreign key(category_id) references category(id)
+);
+select product.id, product.name, product.descriptions, product.details, product.date, product.price
+category_id, category.name as category_name
+from product,category
+where product.category_id = category.id;
+======================
+IMAGES:
+create table images(
+   id int primary key AUTO_INCREMENT,
+   name varchar(200),
+   type varchar(100)
+);
+======================
+PRODUCT_IMAGES:
+create table product_images(
+   id int primary key AUTO_INCREMENT,
+   image_id int,
+   foreign key(image_id) references images(id),
+   product_id int,
+   foreign key(product_id) references product(id)
+);
+
+SELECT product_images.product_id, product_images.image_id, images.name
+FROM product_images,images
+WHERE product_images.image_id = images.id;
+========================
+PRODUCT_features:
+create table product_features(
+   id int primary key AUTO_INCREMENT,
+   details varchar(1000),
+   product_id int,
+   foreign key(product_id) references product(id)
+);
