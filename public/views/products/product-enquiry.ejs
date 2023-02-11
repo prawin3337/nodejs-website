@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="<%= domain %>">
+
+    <title>Pragati Enterprises | Product Enquiry | <%= productName %></title>
+    <meta name="description" content="<%= productDesc %>">
+    <meta name="keywords" content="<%= metaKeywords %>">
+
+    <meta property="og:title" content="<%= productName %>">
+    <meta property="og:description" content="<%= productDesc %>">
+    <meta property="og:type" content="<%= metaKeywords %>">
+    <meta property="og:url" content="<%= domain %>">
+    <meta property="og:image" content="<%= domain %>/img/<%= productImage %>"/>
+
+    <%- include('../styles'); -%>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+  </head>
+  <body>
+   <!-- wpf loader Two -->
+    <div id="wpf-loader-two">
+      <div class="wpf-loader-two-inner">
+        <span>Loading</span>
+      </div>
+    </div>
+    <!-- / wpf loader Two -->
+  <!-- SCROLL TOP BUTTON -->
+    <a class="scrollToTop" href="#"><i class="fa fa-chevron-up"></i></a>
+  <!-- END SCROLL TOP BUTTON -->
+
+
+  <!-- Start header section -->
+  <%- include('../header'); -%>
+  <!-- / header section -->
+  <!-- menu -->
+  <%- include('../nav'); -%>
+  <!-- / menu -->
+
+  <!-- Products section -->
+  
+  <section id="aa-contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-contact-area">
+            <div class="aa-contact-top">
+              <h2>We are wating to assist you..</h2>
+            </div>
+            <div class="aa-contact-address">
+              <div class="row">
+                <div class="col-md-4">
+                  <div>
+                    <h3><%=productName%></h3>
+                    <h4><%=categoryName%></h4>
+                  </div>
+                  <div><img style="width: 100%;max-width: 230px;" src="<%= domain %>/img/<%= productImage %>"/></div>
+                </div>
+                <div class="col-md-8">
+                  <div class="aa-contact-address-left">
+                    <form id="enquiry" class="comments-form contact-form"
+                      method="post"
+                      action="<%=domain%>/enquiry/request">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">                        
+                            <input required name="name" type="text" value="" placeholder="Your Name" class="form-control">
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">                        
+                            <input required name="emailId" type="email" placeholder="Email" class="form-control">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                       <div class="col-md-6">
+                         <div class="form-group">                        
+                           <input required name="company" type="text" placeholder="Company" class="form-control">
+                         </div>
+                       </div>
+                       <div class="col-md-6">
+                         <div class="form-group">                        
+                           <input required name="contactNumber" type="number" placeholder="Contact Number" class="form-control">
+                         </div>
+                       </div>
+                     </div>
+                     <input
+                        type="hidden"
+                        name="productDetails"
+                        value="<%=productId%>, <%=productName%>, <%=categoryName%>"/>                  
+                      
+                     <div class="form-group">                        
+                       <textarea name="details" required class="form-control" rows="3" placeholder="Details"></textarea>
+                     </div>
+                     <div class="form-group">
+                        <div class="g-recaptcha" data-sitekey="6LdCxVQhAAAAALLb09z86L0Ve-myXtZlOhKHS09-"></div>
+                      </div>
+                     <button type="submit" class="aa-secondary-btn"> Send </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+  <!-- / Products section -->
+
+  <!-- Support section -->
+  <section id="aa-support">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-support-area">
+            <!-- single support -->
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="aa-support-single">
+                <span class="fa fa-truck"></span>
+                <h4>FREE SHIPPING</h4>
+                <!-- <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, nobis.</P> -->
+              </div>
+            </div>
+            <!-- single support -->
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="aa-support-single">
+                <span class="fa fa-clock-o"></span>
+                <h4>30 DAYS MONEY BACK</h4>
+                <!-- <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, nobis.</P> -->
+              </div>
+            </div>
+            <!-- single support -->
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="aa-support-single">
+                <span class="fa fa-phone"></span>
+                <h4>SUPPORT 24/7</h4>
+                <!-- <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, nobis.</P> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / Support section -->
+
+
+  <!-- footer -->
+  <%- include('../footer'); -%>
+  <!-- / footer -->
+
+  
+
+  <%- include('../script'); -%>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+  </body>
+</html>

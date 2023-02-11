@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/ico" href="<%= domain %>/img/logo.png">
+    <base href="<%= domain %>">
+
+    <title>Pragati Enterprises | Home</title>
+
+    <%- include('styles'); -%>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+  </head>
+  <body>
+   <!-- wpf loader Two -->
+    <div id="wpf-loader-two">
+      <div class="wpf-loader-two-inner">
+        <span>Loading</span>
+      </div>
+    </div>
+    <!-- / wpf loader Two -->
+  <!-- SCROLL TOP BUTTON -->
+    <a class="scrollToTop" href="#"><i class="fa fa-chevron-up"></i></a>
+  <!-- END SCROLL TOP BUTTON -->
+
+
+  <!-- Start header section -->
+  <%- include('header'); -%>
+  <!-- / header section -->
+  <!-- menu -->
+  <%- include('nav'); -%>
+  <!-- / menu -->
+  <!-- Start slider -->
+  <%- include('home-slider'); -%>
+  <!-- / slider -->
+
+  <!-- Products section -->
+  <%- include('products/home-products', {categorys, products}); -%>
+  <!-- / Products section -->
+  <!-- banner section -->
+  <section id="aa-banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="aa-banner-area">
+            <a href="#"><img src="<%= domain %>/img/banner-1170x170.jpg" alt="banner img"></a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Support section -->
+  <section id="aa-support">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-support-area">
+            <!-- single support -->
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="aa-support-single">
+                <span class="fa fa-truck"></span>
+                <h4>FREE SHIPPING</h4>
+                <!-- <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, nobis.</P> -->
+              </div>
+            </div>
+            <!-- single support -->
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="aa-support-single">
+                <span class="fa fa-clock-o"></span>
+                <h4>30 DAYS MONEY BACK</h4>
+                <!-- <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, nobis.</P> -->
+              </div>
+            </div>
+            <!-- single support -->
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="aa-support-single">
+                <span class="fa fa-phone"></span>
+                <h4>SUPPORT 24/7</h4>
+                <!-- <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, nobis.</P> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / Support section -->
+
+
+  <!-- footer -->
+  <%- include('footer'); -%>
+  <!-- / footer -->
+
+  
+
+  <%- include('script'); -%>
+
+  </body>
+</html>
